@@ -1,0 +1,17 @@
+{
+  "name": "automation-tests",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cypress": "^4.0.0"
+  },
+  
+  "scripts": {
+    "open": "cypress open  ./cypress",
+    "run": "cypress run  ./cypress",
+    "multi-browsers": "yarn firefox-tests && yarn chrome-tests && yarn edge-tests && yarn mobile-tests",
+    "firefox-tests": "yarn run run --spec './cypress/integration/web/*.js' --browser firefox",
+    "chrome-tests": "yarn run run --spec './cypress/integration/web/*.js' --browser chrome",
+    "edge-tests": "yarn run run --spec './cypress/integration/web/*.js' --browser edge",
+    "mobile-tests": "yarn run run --spec './cypress/integration/mobile/*.js' --browser chrome"
+  }
+}
