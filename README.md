@@ -19,9 +19,8 @@ Firefox - https://www.mozilla.org/en-US/
 #### Download the project
 Run following commands to download and setup project
 ```
-cd $DEVHOME/src && \
-git clone git@github.com:finderau/regression-suite.git
-cd regression-suite
+git git@github.com:Mansatfinder/automation.git
+cd automation
 ```
 #### Install the dependencies
 Run following command to install all dependencies
