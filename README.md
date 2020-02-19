@@ -19,7 +19,7 @@ Firefox - https://www.mozilla.org/en-US/
 #### Download the project
 Run following commands to download and setup project
 ```
-git git@github.com:Mansatfinder/automation.git
+git clone git@github.com:Mansatfinder/automation.git
 cd automation
 ```
 #### Install the dependencies
