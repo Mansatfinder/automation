@@ -3,7 +3,7 @@
 // by submitting an empty login form and with wrong login details
 // ***********************************************
 
-describe("Validate user login", function() {
+describe("Validate user login - Mobile", function() {
     this.beforeEach(() => {
         cy.visit('/user-profile/sign-in');
         //open browser in iphoneX viewport

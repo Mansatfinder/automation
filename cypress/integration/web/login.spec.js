@@ -4,7 +4,7 @@
 // by submitting an empty login form and with wrong login details.
 // ***********************************************
 
-describe("Validate user login", function() {
+describe("Validate user login - Desktop", function() {
     this.beforeEach(() => {
         cy.visit('/user-profile/sign-in');
     });
