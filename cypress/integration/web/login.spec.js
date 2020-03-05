@@ -1,3 +1,9 @@
+// ***********************************************
+// These tests are based on finder's user login feature
+// which check the basic validation in multiple browsers (chrome, firefox, edge) 
+// by submitting an empty login form and with wrong login details.
+// ***********************************************
+
 describe("Validate user login", function() {
     this.beforeEach(() => {
         cy.visit('/user-profile/sign-in');

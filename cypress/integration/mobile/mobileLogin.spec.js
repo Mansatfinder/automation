@@ -1,8 +1,13 @@
+// ***********************************************
+// This tests are for mobile viewport which check the basic validation 
+// by submitting an empty login form and with wrong login details
+// ***********************************************
+
 describe("Validate user login", function() {
     this.beforeEach(() => {
         cy.visit('/user-profile/sign-in');
-        cy.viewport(375, 812);
         //open browser in iphoneX viewport
+        cy.viewport(375, 812);
     });
     it('should display error message when login form is submit with empty fields', () => {
         cy.clickContinueButton();
